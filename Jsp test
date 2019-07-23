@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: box-border;
+}
+body{
+	height: 100%;
+	width: 100%;
+	background-image: url('D:/Download/1.jpg');
+}
+
+#login{
+	position: absolute;
+	width: 30%;
+	left: 35%;
+	height: 30%;
+	top: 35%;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	border: 5px bold white;
+}
+
+#button{
+	background-color: #aa5c9f;
+	width: 30%;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+	font-weigh: bold;
+	border:0px;
+}
+
+#button:hover{
+	background-color:white;
+	color:#aa5c9f;
+}
+
+#log1 {
+text-align: left;
+font-size: 24px;
+font-weight: bold;
+font-family:Arial;
+line-height: 1.2em;
+}
+
+</style>
+</head>
+<body>
+<div id="login">
+	<div id="log1">登录<hr></div>
+	<br><br>
+	<form action="post.jsp" method="POST" >
+	姓名：<input type="text" name="username"/><br><br><br>
+	密码：<input type="password" name="password" /><br><br><br>
+	<input type="submit" value="提交" id="button" />
+</form>
+</div>
+</body>
+</html>
